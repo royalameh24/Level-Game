@@ -15,6 +15,8 @@
 		D266677728D779D400914DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D266677528D779D400914DF0 /* Main.storyboard */; };
 		D266677928D779D600914DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D266677828D779D600914DF0 /* Assets.xcassets */; };
 		D266677C28D779D600914DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D266677A28D779D600914DF0 /* LaunchScreen.storyboard */; };
+		D266678328D7814E00914DF0 /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = D266678228D7814E00914DF0 /* Level1.sks */; };
+		D266678928D786A800914DF0 /* Level1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D266678828D786A800914DF0 /* Level1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		D266677628D779D400914DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D266677828D779D600914DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D266677B28D779D600914DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D266678228D7814E00914DF0 /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
+		D266678828D786A800914DF0 /* Level1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,10 @@
 			children = (
 				D266676B28D779D400914DF0 /* AppDelegate.swift */,
 				D266676D28D779D400914DF0 /* GameScene.sks */,
-				D266676F28D779D400914DF0 /* Actions.sks */,
 				D266677128D779D400914DF0 /* GameScene.swift */,
+				D266676F28D779D400914DF0 /* Actions.sks */,
+				D266678228D7814E00914DF0 /* Level1.sks */,
+				D266678828D786A800914DF0 /* Level1.swift */,
 				D266677328D779D400914DF0 /* GameViewController.swift */,
 				D266677528D779D400914DF0 /* Main.storyboard */,
 				D266677828D779D600914DF0 /* Assets.xcassets */,
@@ -131,6 +137,7 @@
 			files = (
 				D266677728D779D400914DF0 /* Main.storyboard in Resources */,
 				D266676E28D779D400914DF0 /* GameScene.sks in Resources */,
+				D266678328D7814E00914DF0 /* Level1.sks in Resources */,
 				D266677928D779D600914DF0 /* Assets.xcassets in Resources */,
 				D266677C28D779D600914DF0 /* LaunchScreen.storyboard in Resources */,
 				D266677028D779D400914DF0 /* Actions.sks in Resources */,
@@ -144,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D266678928D786A800914DF0 /* Level1.swift in Sources */,
 				D266677228D779D400914DF0 /* GameScene.swift in Sources */,
 				D266677428D779D400914DF0 /* GameViewController.swift in Sources */,
 				D266676C28D779D400914DF0 /* AppDelegate.swift in Sources */,
